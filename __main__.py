@@ -3,8 +3,6 @@ from gui.graficar_grafo import Graficar_grafo
 
 def main():
     
-    #g1 = Grafo(2,3)
-    #g1.imprimir()
     diccion = {
         "A":["B"],
         "B":["C","E"],
@@ -12,9 +10,11 @@ def main():
         "D":["A"],
         "E":["D"]
     }
+    #g = Grafo(diccion)
+    #g.draw_g()
+    g1 = Graficar_grafo(diccion)
+    g1.draw_grafo()
 
-    grap_grafo = Graficar_grafo(diccion)
-    grap_grafo.draw_grafo(diccion)
 
 
 if __name__ == '__main__':
