@@ -35,3 +35,6 @@ class Grafo:
         dicc_ady = self.get_matriz_ady()
         gg1 = Graficar_grafo(dicc_ady)
         gg1.draw_grafo()
+    
+    def string_grafo(self):
+        return "grafo enviado"

@@ -1,0 +1,2 @@
+class Arista: 
+    pass

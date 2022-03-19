@@ -4,7 +4,7 @@ from gui.graficar_grafo import Graficar_grafo
 def main():
     
     diccion = {
-        "A":["B"],
+        "A":["B","D"],
         "B":["C","E"],
         "C":["E"],
         "D":["A"],
