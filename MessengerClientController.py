@@ -35,7 +35,7 @@ def escanear():
 
 
 if __name__ == '__main__':
-	app.run(debug=True, host="10.17.11.206", port=7000)
+	app.run(debug=True, host="localhost", port=7000)
 
 	
 '''

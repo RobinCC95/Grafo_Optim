@@ -10,8 +10,8 @@ def main():
         "D":["A"],
         "E":["D"]
     }
-    g = Grafo(diccion)
-    g.draw_g()
+    graf_dicc = Graficar_grafo(diccion)
+    graf_dicc.draw_grafo()
 
 
 
